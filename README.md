@@ -65,7 +65,7 @@ Guarda todas as informações necessárias para execução do quiz (memoria e re
 
 ## Analytics
 
-Código fonte: https://github.com/revistaazmina/politize_analytics
+Código fonte: https://github.com/AppCivico/politize-analytics
 
 Contém um webserver com os seguintes endpoints:
 
