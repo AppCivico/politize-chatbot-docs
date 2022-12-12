@@ -1,0 +1,10 @@
+title Chatbot Penha
+
+Twitter->Webhook: Recebe webhooks
+note right of Webhook: analisa o conteudo do webhook\ne decide quais apis chamar
+Webhook->QuizAPI: Inicia conversas ou envia respostas
+QuizAPI->Webhook: Devolve a próxima mensagem
+Webhook->Analytics: Envia eventos para o analytics
+Analytics->Webhook: Responde com OK
+Webhook->Twitter: Envia proxima mensagem com os botões
+
